@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":["jsonrepair","JSONRepairError"],"sources":["../../src/index.ts"],"sourcesContent":["export { jsonrepair } from './jsonrepair.js'\r\nexport { JSONRepairError } from './JSONRepairError.js'\r\n"],"mappings":"AAAA,SAASA,UAAU,QAAQ,iBAAiB;AAC5C,SAASC,eAAe,QAAQ,sBAAsB"}

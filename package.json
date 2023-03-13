@@ -1,6 +1,6 @@
 {
-  "name": "jsonrepair",
-  "version": "3.0.2",
+  "name": "jsonrepairmodified",
+  "version": "3.0.3",
   "description": "Repair broken JSON documents",
   "repository": {
     "type": "git",
@@ -48,6 +48,7 @@
     "release:push": "git push && git push --tag",
     "release:publish": "npm publish",
     "release-dry-run": "npm run build-and-test && standard-version --dry-run",
+    "prepare": "npm run build"
   },
   "files": [
     "README.md",

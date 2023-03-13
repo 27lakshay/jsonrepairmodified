@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":[],"sources":["../../src/index.ts"],"sourcesContent":["export { jsonrepair } from './jsonrepair.js'\r\nexport { JSONRepairError } from './JSONRepairError.js'\r\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AACA"}
