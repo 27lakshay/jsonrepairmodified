@@ -9,7 +9,6 @@
   "type": "module",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
-  "browser": "lib/umd/index.min.js",
   "types": "lib/types/index.d.ts",
   "sideEffects": false,
   "exports": {
@@ -49,7 +48,6 @@
     "release:push": "git push && git push --tag",
     "release:publish": "npm publish",
     "release-dry-run": "npm run build-and-test && standard-version --dry-run",
-    "prepare": "husky install"
   },
   "files": [
     "README.md",
